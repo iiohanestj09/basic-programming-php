@@ -31,7 +31,7 @@ echo $pesan;
 
 /* 5. Fungsi-Fungsi Penting
 - strlen($str)                      : Menghitung panjang string
-- str_word_count($str)              : Menghitung jumlah karakter
+- str_word_count($str)              : Menghitung jumlah kata (dipisah oleh spasi)
 - strtoupper($str)                  : Ubah ke upperCase
 - strtolower($str)                  : Ubah ke lowerCase
 - ucfirst($str)                     : Huruf pertama jadi kapital
@@ -42,7 +42,9 @@ echo $pesan;
 - str_ends_with($str, kalimat)      : Apakah kalimat berada di akhir string
 */
 
-$teks3 = "Latihan Javascript";
+$teks3 = "halo123 yahaha";
+echo strlen($teks3). " ". str_word_count($teks3). "\n";
 
-echo str_replace("Latihan", "Belajar", $teks3). "\n";
-echo str_replace("Javascript", "PHP", $teks3). "\n";
+$teks4 = "Latihan Javascript";
+echo str_replace("Latihan", "Belajar", $teks4). "\n";
+echo str_replace("Javascript", "PHP", $teks4). "\n";
