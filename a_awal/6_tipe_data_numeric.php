@@ -39,9 +39,10 @@ var_dump($a, $b, $c, $d);
 - floor($angka)             : Pembulatan ke bawah
 */ 
 
-echo is_int($a) . "\n";
-echo is_float($pi) . "\n";
-echo is_numeric($d) . "\n";
+var_dump(is_int($a));
+var_dump(is_float($a));
+var_dump(is_numeric($a));
+
 echo round(1.4) . "\n";
 echo round(1.5) . "\n";
 echo round(3.1456789, 3) . "\n";
