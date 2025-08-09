@@ -1,5 +1,5 @@
 <?php
-// switch di PHP menggunakan perbandingan longgar (==). Sehingga untuk mendapatkan nilai yang sesuai juga tipe data nya (===) gunakan if..else
+// switch di PHP menggunakan perbandingan longgar (==). Sehingga untuk mendapatkan nilai yang sesuai juga tipe data nya (===) gunakan if..else ataupun Mathc (PHP 8+)
 
 $hari = "Sabtu";
 
