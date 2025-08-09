@@ -31,7 +31,7 @@ echo tambah(2, 3). "\n";
 function kali(int $a, int $b) {
     return $a * $b;
 }
-// echo kali(2.2, 3). "\n";         Deprecated: semacam warning bahwa (float) 2.2 akan diubah jadi (int) 2 di fungsi
+// echo kali(2.2, 3). "\n";     Deprecated: semacam warning bahwa (float) 2.2 akan diubah jadi (int) 2 di fungsi
 echo kali(3, 3). "\n";
 
 
