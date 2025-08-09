@@ -8,6 +8,10 @@ $a = $a * 10; --> $a *= 10;
 $a = $a / 10; --> $a /= 10;
 $a = $a % 10; --> $a %= 10;
 $a = $a . "Halo"; --> $a .= "Dunia";     Gabungkan string dan simpam
+
+Increment dan Decrement
+$a = $a + 1; --> $a++;
+$a = $a - 1; --> $a--;
 */
 
 $a = 0;
@@ -25,6 +29,13 @@ $a /= 0.5;
 var_dump($a);
 
 $a %= 5;
+var_dump($a);
+
+$a++;
+var_dump($a);
+$a++;
+var_dump($a);
+$a--;
 var_dump($a);
 
 $b = "Putra";
