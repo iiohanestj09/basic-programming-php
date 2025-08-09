@@ -1,7 +1,8 @@
 <?php
-/* NOT (!)
-!true => false
-!false => true
+/* 
+1. NOT (!)
+ !true => false
+ !false => true
 
 
 2. Or (||)
