@@ -27,10 +27,3 @@ function coba1($a): ?bool {
     return $a;
 }
 var_dump(coba1(false));        // Warning
-
-
-// function coba2($a): ?bool {
-//     if ($a == false) return null;
-//     return $a;
-// }
-// var_dump(coba2($a));        // Warning
