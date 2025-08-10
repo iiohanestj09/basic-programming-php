@@ -8,7 +8,6 @@ $sapa = function($nama) {
 $sapa("Putra");
 
 
-
 // 2. Anonymous function sebagai arguments
 function penjumlahan($a, $b) {
     if (is_callable($b)) {
