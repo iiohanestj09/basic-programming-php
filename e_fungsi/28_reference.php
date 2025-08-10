@@ -20,7 +20,7 @@ echo $c . "\n";
 
 // 3. Return by reference
 function &getValue() {
-    static $nilai = 10;
+    static $nilai = 10;     // Variabel lokal yang akan tetap tersimpan meski sudah memanggil fungsi, nilainya tidak akan direset
     return $nilai;
 }
 
