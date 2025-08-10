@@ -1,42 +1,35 @@
 <?php
-// 1. membuat fungsi
+// 1. Membuat fungsi
 function salam() {
     echo "Hallooo Duniaa\n";
 }
 salam();
 
 
-// 2. Function dengan parameter
+// 2. Fungsi dengan parameter
 function sapa($nama) {
     echo "Hallo ". $nama. "\n";
 }
 sapa("Budi");
 
 
-// 3. Function dengan default value parameter
+// 3. Fungsi dengan default value parameter
 function panggil($coba, $nama = "Brooo",) {  //? Param dengan default value harus berada di belakang daftar param
     echo "Haii ". $nama. "\n". $coba. "\n";
 }
 panggil("Apalah");
 
 
-// 4. Function dengan return value
+// 4. Fungsi dengan return value
 function tambah($a, $b) {
     return $a + $b;
 }
 echo tambah(2, 3). "\n";
 
 
-// 5. type hinting
-function kali(int $a, int $b) {
-    return $a * $b;
-}
-// echo kali(2.2, 3). "\n";     Deprecated: semacam warning bahwa (float) 2.2 akan diubah jadi (int) 2 di fungsi
-echo kali(3, 3). "\n";
-
-
-// 6. Variabel Scope
+// 5. Variabel Scope
 $globalScope = 10;
+
 function coba() {
     global $globalScope;
     echo $globalScope. "\n";
