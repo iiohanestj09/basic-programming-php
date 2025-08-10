@@ -21,9 +21,19 @@ function sapa($pesan): void {
 sapa("Haloooo Budiii");
 
 
-// 4. Nullable Type return  -> Gunakan ? di depan retrun type hinting utk tahu kalau bisa nilai null
-function coba1($a): ?bool {
+// 4. Nullable Type return  -> Gunakan ? di depan retrun type hinting utk bisa return null selain type returnnya
+function coba1($a): ?bool {         // Kalau tanpa '?', output di baris 29 bakal fatal error
     if ($a == false) return null;
     return $a;
 }
-var_dump(coba1(false));        // Warning
+var_dump(coba1(false));        // Aman
+
+
+// 5. Union Return type  -> Bisa mengembalikkan lebih dari satu tipe data
+function coba2($a): int|bool|string {
+    if ($a < 0) return -99;
+    elseif ($a === 0) return false;
+    else return "Positif broo!";
+}
+echo coba2(3) . "\n";
+echo coba2(-2) . "\n";
