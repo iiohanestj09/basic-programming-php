@@ -19,7 +19,7 @@ $buah = ["Apel", "Jeruk", "Mangga"];
 print_r($buah);
 echo $buah[0] . PHP_EOL;
 
-  // B. Associative Array -> Menggunakan key berbentuk string
+  // B. Associative Array -> Map di PHP disebut Associative Array. Menggunakan key berbentuk string
 $harga = [
     'Apel' => 5000,
     'Jeruk' => 7000,
