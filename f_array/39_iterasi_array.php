@@ -47,9 +47,3 @@ while ($item = current($data1)) {
     echo "$item ";
     next($data1);
 }
-
-
-// 4. Membuat array baru dengan iterasi
-$angka = [1, 2, 3];
-$kuadrat = array_map(fn($n) => $n * $n, $angka);
-print_r($kuadrat);
