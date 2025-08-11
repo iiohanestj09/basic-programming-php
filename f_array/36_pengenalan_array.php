@@ -19,7 +19,8 @@ $buah = ["Apel", "Jeruk", "Mangga"];
 print_r($buah);
 echo $buah[0] . PHP_EOL;
 
-  // B. Associative Array -> Map di PHP disebut Associative Array. Menggunakan key berbentuk string
+  // B. Associative Array
+  // MAP di PHP disebut Associative Array. Menggunakan key berbentuk string atau int. Jika dipaksa menggunakan tipe data lain (bool,float, dll PHP akan type_juggling ke int/string)
 $harga = [
     'Apel' => 5000,
     'Jeruk' => 7000,
