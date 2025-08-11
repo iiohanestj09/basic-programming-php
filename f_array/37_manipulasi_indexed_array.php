@@ -32,6 +32,9 @@ print_r($buah);
 $buah = array_values($buah);
 print_r($buah);
 
+// Menghapus elemen terakhir
+array_pop($buah);
+
 
 //! 3. Mengubah Nilai Elemen
 $buah[0] = 6.63333;
