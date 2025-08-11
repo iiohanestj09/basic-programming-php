@@ -17,22 +17,27 @@ $buah = ["Apel", true, 45, 33.3];
 //! 1. Menambah Elemen
   // A. Dengan []
 $buah[] = "Mangga";     // "Mangga" akan ditambahkan index paling belakang
-
-  // B. Dengan array_push()  --> Selebihnya akan dijelaskan di materi 39_fungsi_builtin_array
-array_push($buah, false, "Pisang");
+$buah[] = false;
+$buah[] = 123;
 print_r($buah);
+
+  // B. Menambah di Elemen PERTAMA  -> array_unshift()
+  // C. Menambah di Elemen TERAKHIR  -> array_push()
 
 
 //! 2. Menghapus Elemen
+  // A. Dengan unset()
 unset($buah[3]);
 print_r($buah);
 //? NOTES: Index tidak otomatis berurutan kembali. Saat array berisi index 0 1 2 3 4, lalu unset index 3, maka 0 1 2 4
-
 // Gunakan array_values() untuk mereset index
 $buah = array_values($buah);
 print_r($buah);
 
+  // B. Menghapus di Elemen PERTAMA  -> array_shift()
+  // C. Menghapus di Elemen TERAKHIR  -> array_pop()
 
+  
 //! 3. Mengubah Nilai Elemen
 $buah[0] = 6.63333;
 
