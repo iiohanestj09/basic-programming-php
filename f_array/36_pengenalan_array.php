@@ -38,3 +38,4 @@ print_r($mahasiswa);
 echo $mahasiswa[0]['Nama'] . PHP_EOL;
 
 
+  //? NOTE: Di PHP tidak ada SET. Sehingga utk hapus duplikat value dapat menggunakan array_uniqe()  -> Bisa utk indexed da associative array
