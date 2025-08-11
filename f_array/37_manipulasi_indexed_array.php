@@ -18,7 +18,7 @@ $buah = ["Apel", true, 45, 33.3];
   // A. Dengan []
 $buah[] = "Mangga";     // "Mangga" akan ditambahkan index paling belakang
 
-  // B. Dengan array_puhs()
+  // B. Dengan array_push()
 array_push($buah, false, "Pisang");
 print_r($buah);
 
