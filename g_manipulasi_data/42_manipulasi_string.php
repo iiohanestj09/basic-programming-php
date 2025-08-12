@@ -61,6 +61,6 @@ echo strrev($nama) . PHP_EOL;
 - str_ends_with($str, kalimat)      : Apakah kalimat berada di akhir string
 */
 
-// Perbedaan streln() dan str_word_count()
+// Perbedaan strlen() dan str_word_count()
 $teks3 = "halo123 yahaha";
 echo strlen($teks3). " ". str_word_count($teks3). "\n";
